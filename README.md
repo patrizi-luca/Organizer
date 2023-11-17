@@ -1,6 +1,6 @@
 # Organize your folder
 
-## A second-level heading
+## About
 
 This small Python class performs the task of organizing a folder. 
 
@@ -16,7 +16,7 @@ python script.py [-f FOLDER_PATH] [-i FILE_PATH]")
    -i, --file      Set the file path 
 ```
 
-##Example
+## Example
 For example, I've used it in combination with a bash script to organize my downloads folder so that each time I download a new file, it goes into the most suitable subfolder within downloads. This way, I always have everything in order (more or less). 
 On Linux, you can use 'inotify-tools' and a simple bash script to monitor your download folder for new files and run your Python script when a new file is detected. 
 Here's how you can set it up:
