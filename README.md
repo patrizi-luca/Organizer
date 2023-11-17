@@ -8,7 +8,7 @@ python script.py [-f FOLDER_PATH] [-i FILE_PATH]")
 
 ```
 
-**Arguments**:\ 
+**Arguments**:
 ```
    -f, --folder    Set the folder path (default: /default_folder)
    -i, --file      Set the file path 
