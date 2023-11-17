@@ -1,7 +1,7 @@
 bash
 #!/bin/bash
-download_folder="/home/lpatrizi/Downloads/"
-python_script="/home/lpatrizi/personal_projects/python_scripts/sort_file.py"
+download_folder="/my_download_folder/"
+python_script="/my_script_folder/sort_file.py"
 
 while true; do
     inotifywait -e create -r "$download_folder"
