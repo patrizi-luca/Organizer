@@ -6,7 +6,7 @@ This small Python class performs the task of organizing a folder.
 
 Usage for the python script 
 ```
-python script.py [-f FOLDER_PATH] [-i FILE_PATH]") 
+$python script.py [-f FOLDER_PATH] [-i FILE_PATH]") 
 
 ```
 
@@ -21,7 +21,7 @@ For example, I've used it in combination with a bash script to organize my downl
 On Linux, you can use 'inotify-tools' and a simple bash script to monitor your download folder for new files and run your Python script when a new file is detected. \
 Here's how you can set it up:
 ```
-   $sudo apt-get install inotify-tools
+$sudo apt-get install inotify-tools
 
 ```
 Then you need to create a bash script that in my case is watch_downloads.sh and make it executable. Then execute the script. \
