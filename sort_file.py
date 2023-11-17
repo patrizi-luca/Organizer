@@ -7,12 +7,12 @@ def print_usage():
         print("Usage: python script.py [-f FOLDER_PATH] [-i FILE_PATH]")
         print("Description: The program organize your file in the target folder according to its type \n if you don't specify the filepath, the program organize the whole folder")
         print("Arguments:")
-        print("  -f, --folder    Set the folder path (default: /home/lpatrizi/Downloads)")
+        print("  -f, --folder    Set the folder path (default: /my_folder/)")
         print("  -i, --file      Set the file path ")
 
 def main():
         # Default values
-        folder_path = "/home/lpatrizi/Downloads/"
+        folder_path = "/my_folder/"
         file_path = ""
 
         # Parse command line arguments
