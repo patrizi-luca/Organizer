@@ -4,7 +4,7 @@
 
 This small Python class performs the task of organizing a folder. 
 
-Usage for the python script \n
+Usage for the python script \
 python script.py [-f FOLDER_PATH] [-i FILE_PATH]")
 
 Arguments:
