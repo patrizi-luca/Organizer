@@ -1,8 +1,10 @@
 # Organize your folder
+
 ##About
+
 This small Python class performs the task of organizing a folder. 
 
-- Usage for the python script
+Usage for the python script \n
 python script.py [-f FOLDER_PATH] [-i FILE_PATH]")
 
 Arguments:
