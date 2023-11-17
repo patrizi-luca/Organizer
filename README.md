@@ -4,13 +4,9 @@ This small Python class performs the task of organizing a folder.
 
 Usage for the python script \
 ```
-git status
-git add
-git commit
-```
-'''
 python script.py [-f FOLDER_PATH] [-i FILE_PATH]") 
-'''
+
+```
 
 **Arguments**:\ 
    -f, --folder    Set the folder path (default: /default_folder)\
